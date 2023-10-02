@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Accounts" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/primaryDarkColor</item>
+        <item name="colorAccent">@color/primaryLightColor</item>
+        <item name="colorControlNormal">#3C3F41</item>
+        <item name="colorControlActivated">@color/primaryLightColor</item>
+        <item name="colorControlHighlight">@color/primaryLightColor</item>
+    </style>
+
+    <style name="Theme.Accounts" parent="Base.Theme.Accounts" />
+
+</resources>

@@ -1,0 +1,15 @@
+<!-- res/drawable/text_input_layout_outline_border.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- حالة عندما لا يكون هناك تركيز -->
+    <item android:state_focused="false">
+        <shape>
+            <solid android:color="@android:color/white" />
+        </shape>
+    </item>
+    <!-- حالة عندما يكون هناك تركيز -->
+    <item android:state_focused="true">
+        <shape>
+            <solid android:color="@android:color/holo_red_dark" />
+        </shape>
+    </item>
+</selector>

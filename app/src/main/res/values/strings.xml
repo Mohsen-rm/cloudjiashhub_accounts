@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">accounts</string>
+    <string name="sign_up">New User? Sign up.</string>
+    <string name="next">Next</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="login">LOGIN</string>
+
+    <!-- سجل مشتركين الانترنت -->
+    <string name="description">Description</string>
+    <string name="title">Title</string>
+    <string name="hint_text">Priority</string>
+    <string name="privacy_policy">https://sites.google.com/view/historysubscribers/%D8%A7%D9%84%D8%B5%D9%81%D8%AD%D8%A9-%D8%A7%D9%84%D8%B1%D8%A6%D9%8A%D8%B3%D9%8A%D8%A9</string>
+    <string-array name="priorityList">
+        <item>عام</item>
+        <item>غير ذلك</item>
+    </string-array>
+    <string name="facebook_app_id">820915851942449</string>
+    <string name="fb_login_protocol_scheme">fb820915851942449</string>
+    <string name="privacy_policy_home">"مرحبا بك في تطبيق سجل المشتركين الانترنت  برجاء قراءة هذه الصفحة بعناية تامة بجميع تفاصيلها سيكون محتوى الصفحة  1- حول التطبيق 2- لمن موجه هذا التطبيق  3- سياسة الخصوصية 4- شروط الاستخدام  5- شروط أستخدام النسخة المجاني</string>
+    <string name="privacy_policy_about_app">1- حول التطبيق</string>
+    <string name="privacy_policy_about_app_text">"تطبيق سجل المشتركين و هي فكرته  حفظ بيانات المشتركين لديك في المنظومة الانترنت  او البرج او شركتك </string>
+    <string name="to_whom_is_this_app_directed">2- لمن موجه هذا التطبيق </string>
+    <string name="to_whom_is_this_app_directed_text">موجه للشخص أصحاب الأبراج و المنظومات و الشركات الفردية
+والشركات المتوسط و الشركات الكبرى
+</string>
+    <string name="privacy_polic_app">"3- سياسة الخصوصية</string>
+    <string name="privacy_polic_app_text">حول سياسة الخصوصية هنا سوف نخبرك عن متطلبات التطبيق
+وحفظ البيانات و نقلها و مشاركتها
+1- متطلبات التطبيق
+ فقط الوصول إلى الإنترنت لعرض الإعلانات و حفظ البيانات وعرضها
+2- حفظ البيانات
+يتم حفظ البيانات لغرض استرجاعها عند  فقدان الهاتف او عطل الهاتف أو استخدام هاتف اخر  او مسح التطبيق
+يتم تخزين البيانات في السيرفر و تكون مشفرة للغرض عدم التجسس او اختراق البيانات و لا نستطيع توضيح المزيد
+لغرض الحماية
+ملاحظة مهمة : يتم حفظ البيانات من قبل كتابتك و لا يتم مشاركة البيانات مع طرف ثالث إلا في حال استخدام المشترك أو المستخدم المتصل على شبكتك معلومات انت تقوم بإعطائها له من خلال تسجيل الدخول من قبل تطبيق مشترك User.net
+وتستطيع وضع قواعده لعرض البيانات و في حال محاولة استخدام المعلومات لعمال غير قانونية سوف نقول بحظرك من أستخدام التطبيق ومسح بياناتك  ويمكن التعرض إلى المسألة القانونية وأيضا بخصوص عرض البيانات في تطبيق مشترك User.net
+تستطيع قراءة الشروط هناك أن إرادة امكانيت المشترك عرض معلوماته أضافة الى ذلك نقوم بجميع معلومات عن الجهاز و حالة الأعطال التي تحدث للغرض الصيانة و عند حصول اي خلال في السيرفر او كوارث طبيعية نحن غير مسؤلون لكن لا تقلق هذا فقط لغرض التنبيه
+سؤال : هل ممكن بيع معلوماتك لا ثم لا و ذلك التطبيق يحصل ارباحة من خلال الاشتراك او الاعلانات لذلك لا تقلق
+تستطيع معرفة المزيدة خلال البريد الإلكتروني appsmt703@gmail.com
+ملاحظة سيتم تحديث هذه السياسة بين فترة وأخرى لذلك يجب عليك قرأته</string>
+    <string name="terms_of_use">" 4- شروط الاستخدام  "</string>
+    <string name="terms_of_use_text">"- عدم نشر معلومات المستخدمين الى للعامة 2- عدم تركيب سكربت او محاولة التجسس  3- الدفع عند أستخدام بعض الميزات  4- عدم استخدام أي طريق إيقاف عرض الإعلانات 5- عدم التلاعب بعملية الدفع او الوصول الى المزايا المتقدمة بدول أشتراك او دفع   6- مخالفة كل هذا الشروط سيتم حظرك و مسح معلوماتك و ليس لك الحق في استخدام التطبيق  ويتم كشف من خلال نظام متطور  ملاحظة : من حقك استخدام المزايا المتقدمة في النسخة المجانية هذه  "</string>
+    <string name="terms_of_use_of_free">"5 - شروط أستخدام النسخة المجاني "</string>
+    <string name="terms_of_use_of_free_text">"نفس الشروط الاستخدام و لكن من حقك استخدام المزايا المتقدمة  يتم حفظ المستخدمين قرابة 1000 مستخدم و 1000 تفصيل إلى معلومات برجك يتم عمل المزامنة الآن عند ضغط المزامنة في الاعدادات     "</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
