@@ -2,6 +2,7 @@
 package com.cloudjiashhub.accounts.adapter
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -11,6 +12,7 @@ import android.widget.Toast
 import androidx.recyclerview.widget.RecyclerView
 import com.cloudjiashhub.accounts.R
 import com.cloudjiashhub.accounts.model.ItemsViewModel
+import com.cloudjiashhub.accounts.ui.ActivityViewAccount
 
 class CustomAdapter(private val context: Context, private val mList: List<ItemsViewModel>) : RecyclerView.Adapter<CustomAdapter.ViewHolder>() {
 
@@ -31,7 +33,9 @@ class CustomAdapter(private val context: Context, private val mList: List<ItemsV
 
         // Set an item click listener
         holder.itemView.setOnClickListener {
-            Toast.makeText(context,item.email, Toast.LENGTH_LONG).show()
+            val intent = Intent(context, ActivityViewAccount::class.java)
+            intent.putExtra("data", mList[position])
+            context.startActivity(intent);
         }
 
         holder.itemView.setOnLongClickListener {

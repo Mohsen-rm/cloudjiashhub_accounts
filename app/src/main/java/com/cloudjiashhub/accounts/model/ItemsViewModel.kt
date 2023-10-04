@@ -1,5 +1,7 @@
 package com.cloudjiashhub.accounts.model
 
+import java.io.Serializable
+
 data class ItemsViewModel(
     val image: Int,
     val title: String,
@@ -14,5 +16,5 @@ data class ItemsViewModel(
     val date_create:String,
     val date_update:String,
     val icon_account:String,
-    val link_account: String) {
+    val link_account: String) : Serializable {
 }

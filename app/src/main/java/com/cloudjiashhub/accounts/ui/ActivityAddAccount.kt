@@ -84,11 +84,8 @@ class ActivityAddAccount : AppCompatActivity() {
             user_details = edit_user_details.editText?.text.toString()
             user_note = edit_user_note.editText?.text.toString()
 
-            Toast.makeText(this@ActivityAddAccount,"fullname:"+user_fullname+"username:"+user_name+"email:"+user_email,Toast.LENGTH_LONG).show()
-
             if(!user_fullname.trim().isEmpty() || !user_name.trim().isEmpty() || !user_email.trim().isEmpty()){
                 progressbar.visibility = View.VISIBLE
-//                btn_add_account.isEnabled.
                 add_account()
             }else{
                 val snackbar = Snackbar.make(findViewById(android.R.id.content), "Please enter at least the account name, email, or username", Snackbar.LENGTH_SHORT)
